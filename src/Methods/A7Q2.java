@@ -55,6 +55,6 @@ public class A7Q2 {
         
         String letter = test.examGrade(grade);
         
-        System.out.println("Your grade is " + letter);
+        System.out.println("Your grade is a: " + letter);
     }
 }
