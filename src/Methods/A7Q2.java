@@ -17,6 +17,8 @@ public class A7Q2 {
      */
      public String examGrade(int grade){
       
+         // finds ranges for number grades and assigns them a letter grade as the answer
+         
          String answer = "";
          
          if(grade<49){
@@ -45,6 +47,7 @@ public class A7Q2 {
     
     public static void main(String[] args) {
         // TODO code application logic here
+        // scanner and print 
         A7Q2 test = new A7Q2();
         
         System.out.println("Enter your grade! ");

@@ -17,20 +17,22 @@ public class A7Q7 {
      */
     
     public void firstDigit(int digit){
-        
+        // creates a temporary digit 
         double dig = 0;
-        
+        // turns it to pos if its negative 
         if(digit < 0){
             digit=digit*-1;
         }
-        
+        // creates a string the size of the digit (spaces)
         String digis = ""+digit;
         
+        // finds how many spaces to move the decimal to get the first number
         double z =  Math.pow(10,(digis.length()-1));
         
-
+// pulls out the first digit by rounding the remainder down
         dig = Math.floor(digit/z);
         
+        // another check to make sure its not negative (was for testing but i'll leave it in)
         if(dig < 0){
             dig = dig*-1;
         }

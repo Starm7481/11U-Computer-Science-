@@ -19,6 +19,8 @@ public class A7Q4 {
     public void compInt(double value, double year, double interest){
     
     // b = p(1+r)^n
+        // creates integers for the values then progressively performs the formula 
+        
         double balance = 0;
         
         double b = (1+interest);
@@ -26,13 +28,14 @@ public class A7Q4 {
         balance = Math.pow(b, year);
         
         balance = (value*(balance));
-        
+        // prints the balance 
         System.out.println("Your balance now is " + balance);
         
     
     }
     public static void main(String[] args) {
         // TODO code application logic here
+        //scanner and print 
         A7Q4 test = new A7Q4();
         
         System.out.println("Enter your initial value! ");

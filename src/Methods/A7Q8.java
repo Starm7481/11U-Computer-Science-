@@ -20,9 +20,7 @@ public class A7Q8 {
          if(digit < 0){
             digit=digit*-1;
         }
-         
-          
-         
+     
           String digis = ""+digit;
           
           boolean checks[] = new boolean[digis.length()];
