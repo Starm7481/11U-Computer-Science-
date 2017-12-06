@@ -19,11 +19,11 @@ public class A7Q7 {
     public void firstDigit(int digit){
         // creates a temporary digit 
         double dig = 0;
-        // turns it to pos if its negative 
+        // turns the integer to pos if its negative 
         if(digit < 0){
             digit=digit*-1;
         }
-        // creates a string the size of the digit (spaces)
+        // creates a string the size of the digit (for measuring spaces)
         String digis = ""+digit;
         
         // finds how many spaces to move the decimal to get the first number
